@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+<head>
+<title>my javascript</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+</head>
+<body>
+<div id="price"><div>
+<div id="prodict1"></div>
+  <div id="prodict2"></div>
+    <div id="prodict3"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+var themainprice = 500,
+     smalldiscount = 50;
+     gooddiscount = 100;
+     thebigerdiscount = 200;
+document.getElementById.("price").innerHtml = themainprice
+document.getElementById.("prodict1").innerHtml = themainprice - thefirstdiscount;
+document.getElementById.("prodict2").innerHtml = themainprice - theseconddiscount;
+document.getElementById.("prodict3").innerHtml = themainprice - thebigerdiscount;
+
