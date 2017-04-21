@@ -1,4 +1,203 @@
-1
+1<!DOCTYPE html>
+<html>
+  <head>
+	 <title>Award</title>
+	 <link rel="stylesheet" type="text/css" href="style5.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body> 
+   <div class="wrapper flex-box">
+    
+      <header>
+        
+      <a href="#"><h1>Iranian music instruments</h1></a>
+         <a href="#"><h1 id="language">language</h1></a>
+     
+       </header>
+       <span id="side-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">☰ </span>
+       <nav>
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Gallery</a></li>
+         <li><a href="#">Videos</a></li>
+         <li><a href="#">Shop</a></li>
+       </ul>
+       </nav>
+ 
+     <div >
+         
+<!--=======first section=======-->
+         
+      <section id="first-section" class="flex-box">
+        <article id="s1-art1">
+               <div id="s1-art1-div1">
+                <h1 id="text1" style="color:white">We asked some of the greatest musicians in the world how they deal with nerves. Here’s what they said</h1><br>
+                    <p>
+                        <a href="http://www.classicfm.com/music-news/videos/how-deal-with-nerves/" target="_blank">See more </a>
+                        <a href="">Advertising</a>
+                   </p>
+                   <p id="text2">The annual Gramophone Awards brings together some of the top musicians in the world to celebrate the best recordings of the year.</p> 
+
+                  </div>
+            <img  src="shahnaz-band.jpg" alt="shahnaz-band">
+         
+        </article>
+        <article id="s1-art2" class="flex-box">
+              
+             <div id="s1-art2-div1" >
+               <img   src="shajarian.jpg" alt="shahnaz-band">
+                <div class="first-section-div-1">
+                 <h3>watch on youtube</h3>
+                 <p><a href="https://www.youtube.com/watch?v=G41otEqaB2I" target="_blank">videos</a></p>
+                </div>
+             </div >
+         
+             <div  id="s1-art2-div2">
+              <img  src="nazeri.jpg" alt="shahnaz-band">
+              <div class="first-section-div-2">
+                 <h3>watch on youtube</h3>
+                 <p><a href="https://www.youtube.com/watch?v=NkVnNjNjdo0" target="_blank">videos</a></p>
+              </div>
+             </div>
+                 
+        </article> 
+      </section>
+         
+<!--==========second section=======-->
+  	  
+         
+         
+         <section id="second-section" class="flex-box">
+          <div id="second-s-div" class="flex-box">
+           <ul >
+  			   <li>
+                   <article>
+                  <img src="tar.jpg" alt="TAR">
+                   </article>
+                     <article class="second-s-art">
+                      <h3>watch on youtube</h3>
+                       <p><a href="https://www.youtube.com/watch?v=CdOjXlhvPhU" target="_blank">video</a></p>
+                         
+             
+                     </article>
+                   
+               </li>
+  			   <li> 
+                   
+                   <article>
+                   <img src="setar.bmp" alt="setar">
+                   </article>
+                     <article class="second-s-art">
+                      <h3>watch on youtube</h3>
+                       <p><a href="https://www.youtube.com/watch?v=bvpxGiiUssI" target="_blank">video</a></p>
+             
+                     </article>
+               </li>
+  			   <li>
+                   
+                   <article>
+                  <img src="kamancheh.gif" alt="kamancheh">
+                   </article>
+                     <article class="second-s-art">
+                      <h3>watch on youtube</h3>
+                       <p><a href="https://www.youtube.com/watch?v=WKObjozmHwU" target="_blank">video</a></p>
+             
+                     </article>
+               </li>
+               
+  			      <li>
+                    <article>
+                    <img src="ney.jpg" alt="ney">
+                    </article>
+                    <article class="second-s-art">
+                      <h3>watch on youtube</h3>
+                       <p><a href="https://www.youtube.com/watch?v=kP6IU9WCjpI" target="_blank">video</a></p>
+                     </article>
+               </li>
+               
+  			   <li>
+                   <article>
+                   <img src="tombak.jpg" alt="tombak">
+                   </article>
+                     <article class="second-s-art">
+                      <h3>watch on youtube</h3>
+                       <p><a href="https://www.youtube.com/watch?v=Uj59HmwlzLA" target="_blank">video</a></p>
+             
+                     </article>
+               </li>
+  			 
+               
+  		  </ul>
+        </div>
+  	  
+
+             
+       
+  	  <aside >
+  		<section id="third-section" >
+           <article id="aside-section-art1" class="flex-box" >
+               <div>
+               <h2>Get Our Newsletter</h2>
+               <p>You want to know more</p>
+               <button id="aside-button" class="button">Subscribe</button>
+            </div>
+           </article>
+           <article  id="aside-section-art2" class="flex-box">
+               
+               <h2><a href=""><img src="twitter.png"></a></h2>
+              <h2><a href=""><img src="facebook.png"></a></h2>
+              <h2><a href=""><img src="google.png"></a></h2>
+               <h2><a href=""><img src="linkedin.png"></a></h2>
+          
+            </article> 
+        </section>
+  	  </aside>
+          </section>
+       
+<!--========footer========-->
+         
+         
+  	  <footer class="flex-box">
+          <section id="footer-first-section" class="flex-box" >
+              <article class="flex-box" id="footer-section1-art1" >
+                <h2 id="footer-h2" >Get Our Newsletter: Put Google research and insight behind your thinking</h2>
+              <button class="button f-sub">Subscribe</button>
+              </article>
+              
+              <article id="footer-section1-art2"class="flex-box" >
+                    <ul id="footer-ul1">
+                      <li><a>Feedback</a></li>
+                      <li><a>About us</a></li>
+                     
+                  </ul>
+                  <ul  id="footer-ul2">
+                      <li><a href=""><img src="twitter.png"></a></li>
+                      <li><a href=""><img src="facebook.png"></a></li>
+                      <li><a href=""><img src="google.png"></a></li>
+                      <li><a href=""><img src="linkedin.png"></a></li>
+                  </ul>
+              
+              </article>
+          </section>
+          
+          <section id="footer-second-section" class="flex-box">
+              <article>
+                     <ul>
+                      <li><a>Terms and conditions</a></li>
+                      <li><a>Instruments</a></li>
+                      <li><a>Advertising</a></li>
+                      <li><a>Privacy</a></li>
+                  </ul>
+              
+              </article>
+          </section>
+       
+
+      </footer>
+   </div>
+    </div>
+  </body>
+</html>
 2
 3
 4
